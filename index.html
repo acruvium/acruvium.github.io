@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desk Calendar — Google Calendar and Google Tasks on your Windows desktop</title>
+<meta name="description" content="Desk Calendar is a Windows desktop app that shows your Google Calendar events and Google Tasks together in one window. It runs on your PC and talks only to Google.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/icon.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html"><img src="assets/icon.png" width="32" height="32" alt="">Desk Calendar</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#google-data">Your Google data</a>
+      <a href="#download">Download</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+    <a class="lang" href="ko/index.html" hreflang="ko" lang="ko"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>한국어</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">A Windows desktop app for Google Calendar and Google Tasks</p>
+      <h1>Your calendar at a glance.<br>Today’s tasks, done lightly.</h1>
+      <p class="lead">Desk Calendar puts your Google Calendar events and Google Tasks side by side in one clean window on your Windows PC. See the whole month, catch upcoming deadlines and add what’s next without opening a browser.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://github.com/acruvium/DesktopCalendar/releases/latest"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></svg>Download for Windows</a>
+        <a class="btn" href="#google-data">How we use your Google data</a>
+      </div>
+      <p class="meta">Version 1.3.0 · Windows 10 and 11 (64-bit)</p>
+
+      <figure class="shot">
+        <div class="mock" lang="ko" role="img" aria-label="Desk Calendar main window: a month view with events and tasks, a mini calendar, the signed-in account, the calendar list and a list of upcoming deadlines">
+          <div class="m-bar"><img src="assets/icon.png" alt="">Desk Calendar<span class="m-win"><i><svg viewBox="0 0 10 10"><path d="M0 5h10"/></svg></i><i><svg viewBox="0 0 10 10"><path d="M.5.5h9v9h-9z"/></svg></i><i><svg viewBox="0 0 10 10"><path d="M0 0l10 10M10 0L0 10"/></svg></i></span></div>
+          <div class="m-body">
+            <div class="m-side">
+              <div>
+                <div class="m-mini-head">2026년 11월<span><span class="m-ib"><svg viewBox="0 0 16 16"><path d="M10 3.5L5.5 8l4.5 4.5"/></svg></span><span class="m-ib"><svg viewBox="0 0 16 16"><path d="M6 3.5L10.5 8 6 12.5"/></svg></span></span></div>
+                <div class="m-mini">
+                  <span class="dow su">일</span><span class="dow">월</span><span class="dow">화</span><span class="dow">수</span><span class="dow">목</span><span class="dow">금</span><span class="dow sa">토</span>
+                  <span class="su">1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span class="sa">7</span>
+                  <span class="su">8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span class="sa">14</span>
+                  <span class="su">15</span><span>16</span><span>17</span><span class="now">18</span><span>19</span><span class="dot">20</span><span class="sa">21</span>
+                  <span class="su">22</span><span>23</span><span>24</span><span>25</span><span class="dot">26</span><span class="dot">27</span><span class="sa">28</span>
+                  <span class="su">29</span><span>30</span><span class="out">1</span><span class="out">2</span><span class="out">3</span><span class="out">4</span><span class="out">5</span>
+                </div>
+              </div>
+              <div>
+                <div class="m-h">계정</div>
+                <div class="m-card m-acct"><span class="m-avatar">G</span><div><small>Google 계정</small><b>name@gmail.com</b></div><span class="m-ib"><svg viewBox="0 0 16 16"><path d="M13 8a5 5 0 1 1-1.5-3.5M13 2.5v2.5h-2.5"/></svg></span></div>
+              </div>
+              <div>
+                <div class="m-h">내 캘린더</div>
+                <div class="m-row"><span class="m-box"><svg viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3 4.7-5"/></svg></span>내 캘린더</div>
+                <div class="m-row"><span class="m-box" style="--c: var(--sat)"><svg viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3 4.7-5"/></svg></span>프로젝트</div>
+                <div class="m-row"><span class="m-box" style="--c: var(--ink-muted)"><svg viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3 4.7-5"/></svg></span>할 일</div>
+                <div class="m-row"><span class="m-box" style="--c: var(--sun)"><svg viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3 4.7-5"/></svg></span>생일</div>
+              </div>
+              <div class="m-foot">
+                <div class="m-row"><svg class="gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></svg>환경설정</div>
+                <div class="m-ver">v1.3.0</div>
+              </div>
+            </div>
+            <div class="m-main">
+              <div class="m-tool">
+                <span class="m-title">2026년 11월</span>
+                <span class="m-ib lg m-arrow"><svg viewBox="0 0 16 16"><path d="M10 3.5L5.5 8l4.5 4.5"/></svg></span>
+                <span class="m-ib lg m-arrow"><svg viewBox="0 0 16 16"><path d="M6 3.5L10.5 8 6 12.5"/></svg></span>
+                <span class="m-btn">오늘</span>
+                <span class="m-seg"><span class="on">월</span><span>주</span><span>일</span></span>
+              </div>
+              <div class="m-card m-month">
+                <div class="m-week"><span class="su">일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span class="sa">토</span></div>
+                <div class="m-grid">
+                  <div class="m-day su"><div class="m-top"><span class="m-num">1</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">2</span></div><div class="m-chip"><span>주간 회의</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">3</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">4</span></div><div class="m-chip"><span>치과 예약</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">5</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">6</span></div><div class="m-chip alt"><span>팀 점심</span></div></div>
+                  <div class="m-day sa"><div class="m-top"><span class="m-num">7</span></div></div>
+                  <div class="m-day su"><div class="m-top"><span class="m-num">8</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">9</span></div><div class="m-chip"><span>주간 회의</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">10</span></div><div class="m-chip done"><i class="m-ck"><svg viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3 4.7-5"/></svg></i><span>견적서 보내기</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">11</span></div><div class="m-chip"><span>독서 모임</span></div><div class="m-chip"><span>요가 수업</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">12</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">13</span></div><div class="m-chip done"><i class="m-ck"><svg viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3 4.7-5"/></svg></i><span>보고서 초안</span></div></div>
+                  <div class="m-day sa"><div class="m-top"><span class="m-num">14</span></div><div class="m-chip"><span>가족 나들이</span></div></div>
+                  <div class="m-day su"><div class="m-top"><span class="m-num">15</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">16</span></div><div class="m-chip"><span>주간 회의</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">17</span></div><div class="m-chip done"><i class="m-ck"><svg viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3 4.7-5"/></svg></i><span>택배 반품하기</span></div></div>
+                  <div class="m-day now"><div class="m-top"><span class="m-num">18</span><span class="m-more">+1</span></div><div class="m-chip alt"><span>디자인 리뷰</span></div><div class="m-chip"><span>운동</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">19</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">20</span></div><div class="m-chip solo"><i class="m-ck"><svg viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3 4.7-5"/></svg></i><span>프로젝트 중간 보고 자료 제출</span></div></div>
+                  <div class="m-day sa"><div class="m-top"><span class="m-num">21</span></div></div>
+                  <div class="m-day su"><div class="m-top"><span class="m-num">22</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">23</span></div><div class="m-chip"><span>주간 회의</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">24</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">25</span></div><div class="m-chip"><span>엄마 생신</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">26</span></div><div class="m-chip solo"><i class="m-ck"><svg viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3 4.7-5"/></svg></i><span>항공권 예약</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">27</span></div><div class="m-chip solo"><i class="m-ck"><svg viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3 4.7-5"/></svg></i><span>분기 회고 자료 정리</span></div></div>
+                  <div class="m-day sa"><div class="m-top"><span class="m-num">28</span></div></div>
+                  <div class="m-day su"><div class="m-top"><span class="m-num">29</span></div></div>
+                  <div class="m-day"><div class="m-top"><span class="m-num">30</span></div><div class="m-chip"><span>주간 회의</span></div></div>
+                  <div class="m-day out"><div class="m-top"><span class="m-num">1</span></div></div>
+                  <div class="m-day out"><div class="m-top"><span class="m-num">2</span></div></div>
+                  <div class="m-day out"><div class="m-top"><span class="m-num">3</span></div></div>
+                  <div class="m-day out"><div class="m-top"><span class="m-num">4</span></div></div>
+                  <div class="m-day out"><div class="m-top"><span class="m-num">5</span></div></div>
+                </div>
+              </div>
+              <div class="m-card m-tasks">
+                <div class="m-tasks-head">예정 작업 및 일정<span class="m-count">3</span></div>
+                <div class="m-task"><i class="m-ck"></i><span class="m-ttl">프로젝트 중간 보고 자료 제출</span><span class="m-badge soon">D-2</span><span class="m-date">11월 20일 (금)</span></div>
+                <div class="m-task"><i class="m-ck"></i><span class="m-ttl">항공권 예약</span><span class="m-badge">D-8</span><span class="m-date">11월 26일 (목)</span></div>
+                <div class="m-task"><i class="m-ck"></i><span class="m-ttl">분기 회고 자료 정리</span><span class="m-badge">D-9</span><span class="m-date">11월 27일 (금)</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <figcaption>The main window, shown with sample data. The app’s interface is in Korean.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Features</p>
+        <h2>Everything for today, in one window</h2>
+        <p>Desk Calendar shows the events and tasks from your own Google account, and lets you change them right where you see them.</p>
+      </div>
+      <div class="features">
+        <article class="card feature">
+          <div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4M9 15l2 2 4-4"/></svg></div>
+          <h3>Calendar and tasks together</h3>
+          <p>Month, week and day views with a mini calendar. Google Calendar events and Google Tasks appear side by side, and the upcoming list counts down to each deadline (D-2, D-8 …).</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9a2.83 2.83 0 0 0-4-4L4 16v4z"/><path d="M13.5 6.5l4 4"/></svg></div>
+          <h3>Edit without a browser</h3>
+          <p>Add, edit, duplicate and delete events and tasks in the app. Drag an item to another day, or drag its bottom edge in the week and day views to change how long it runs. Tick a checkbox to complete a task.</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2.5l3 3-3 3"/><path d="M4 11.5v-1a5 5 0 0 1 5-5h11"/><path d="M7 21.5l-3-3 3-3"/><path d="M20 12.5v1a5 5 0 0 1-5 5H4"/></svg></div>
+          <h3>Monthly recurring tasks</h3>
+          <p>Repeat a task on a set day of every month or on a weekday such as the third Wednesday, for 1 to 60 months. Desk Calendar creates one Google task for each month, and you can change just one or all the ones that follow.</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M18.5 14.2a6.5 6.5 0 0 1 3 5.8"/></svg></div>
+          <h3>More than one Google account</h3>
+          <p>Add your work and personal Google accounts and switch between them from the account card.</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 2l20 20"/><path d="M8.5 16.5a5 5 0 0 1 7 0"/><path d="M5 12.9a10 10 0 0 1 5.2-2.8"/><path d="M19 12.9a10 10 0 0 0-2.4-1.7"/><path d="M2 8.8a15 15 0 0 1 4.2-2.6"/><path d="M22 8.8A15 15 0 0 0 10.7 5"/><path d="M12 20h.01"/></svg></div>
+          <h3>Keeps working offline</h3>
+          <p>If your internet connection drops, the events and tasks you last synced stay on screen.</p>
+        </article>
+        <article class="card feature">
+          <div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></div>
+          <h3>Light, dark and always at hand</h3>
+          <p>Choose a light or dark theme. Desk Calendar can start with Windows and waits in the system tray when you close its window.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="google-data">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Your Google data</p>
+        <h2>How Desk Calendar uses your Google data</h2>
+        <p>Desk Calendar asks for access to your Google account only to show and edit your own calendar and tasks. The app runs on your PC and talks directly to Google. There is no Desk Calendar server, so your data never reaches us.</p>
+      </div>
+      <div class="card perm">
+        <div class="perm-row">
+          <div><h3>Google Calendar</h3><code class="scope">auth/calendar</code></div>
+          <p>To show your calendars and events, and to create, change, move or delete an event when you do so in the app.</p>
+        </div>
+        <div class="perm-row">
+          <div><h3>Google Tasks</h3><code class="scope">auth/tasks</code></div>
+          <p>To show your task lists and tasks, and to create, edit, complete or delete a task when you do so in the app, including the monthly recurring tasks you set up.</p>
+        </div>
+        <div class="perm-row">
+          <div><h3>Your name and email address</h3><code class="scope">openid · email · profile</code></div>
+          <p>To show which Google account you are signed in with and to tell your accounts apart.</p>
+        </div>
+      </div>
+      <div class="trio">
+        <div class="card">
+          <h3>Stays on your PC</h3>
+          <ul class="list yes">
+            <li>Your sign-in token, encrypted with Windows Data Protection (DPAPI)</li>
+            <li>An offline copy of your events and tasks</li>
+            <li>Your settings</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>What never happens</h3>
+          <ul class="list no">
+            <li>Your data is sent to us or to anyone other than Google</li>
+            <li>Your data is sold or used for advertising</li>
+            <li>Your data is used to train AI or machine-learning models</li>
+            <li>Analytics or tracking inside the app</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>You’re in control</h3>
+          <ul class="list yes">
+            <li>Signing out deletes the token and offline copy from your PC</li>
+            <li>Remove the app’s access at any time in your <a href="https://myaccount.google.com/connections">Google Account</a></li>
+            <li>No Google account? Use local mode. Everything stays on your PC</li>
+          </ul>
+        </div>
+      </div>
+      <div class="note">
+        <p>Desk Calendar’s use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+        <p>The details are in our <a href="privacy.html">Privacy Policy</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="download">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Download</p>
+        <h2>Get Desk Calendar</h2>
+      </div>
+      <div class="dl">
+        <div class="card">
+          <h3>What you need</h3>
+          <ul class="list yes">
+            <li><strong>Windows 10 or 11</strong> (64-bit)</li>
+            <li><strong>.NET 11 Desktop Runtime</strong>. If you don’t have it, install it from <a href="https://dotnet.microsoft.com/download">Microsoft</a> or run:
+              <pre class="cmd"><code>winget install Microsoft.DotNet.DesktopRuntime.11</code></pre></li>
+            <li><strong>A Google account</strong>, if you want to sync with Google Calendar and Google Tasks</li>
+            <li>The app’s interface is in <strong>Korean</strong></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Install and sign in</h3>
+          <ol class="steps">
+            <li>Download the latest version from <strong>GitHub Releases</strong>.</li>
+            <li>Extract the zip file to a folder and run <code class="nw">desk-calendar.exe</code>.</li>
+            <li>Click <strong>Google 로그인</strong> (Sign in with Google). Your browser opens Google’s sign-in page, then brings you back to the app. Desk Calendar never sees your password.</li>
+          </ol>
+          <a class="btn btn-primary" href="https://github.com/acruvium/DesktopCalendar/releases/latest"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></svg>Download for Windows</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot">
+      <a class="brand" href="index.html"><img src="assets/icon.png" width="24" height="24" alt="">Desk Calendar</a>
+      <nav class="foot-links" aria-label="Footer">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="https://github.com/acruvium/DesktopCalendar">GitHub</a>
+        <a href="mailto:milionesmio@gmail.com">milionesmio@gmail.com</a>
+        <a href="ko/index.html" hreflang="ko" lang="ko">한국어</a>
+      </nav>
+    </div>
+    <p class="disclaimer">© 2026 Desk Calendar Team. Google Calendar and Google Tasks are trademarks of Google LLC. Desk Calendar is an independent app and is not affiliated with or endorsed by Google.</p>
+  </div>
+</footer>
+</body>
+</html>
